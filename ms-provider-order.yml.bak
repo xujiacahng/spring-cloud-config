@@ -9,7 +9,7 @@ spring:
     druid:
       username: root
       password: 123456
-      jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud
+      jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud03
       driver-class-name: com.mysql.jdbc.Driver
   profiles: dev
 server:
