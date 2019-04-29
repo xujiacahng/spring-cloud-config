@@ -3,7 +3,7 @@ spring:
       active: dev
     application:
       name: ms-provider-order
-busi.ops=true
+busi.ops: Y
 ---
 spring:
   datasource:
