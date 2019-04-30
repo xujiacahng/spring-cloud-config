@@ -4,6 +4,8 @@ spring:
       active: dev
     application:
     	name: ms-provider-order
+busi:
+ ops:Y
 ---
 server:
   port: 8002
