@@ -1,11 +1,10 @@
 spring:
     profiles:
-      active: dev
+      active: prod
     application:
       name: ms-provider-order
 busi:
   ops: Y
-
 ---
 server:
   port: 8002
