@@ -1,8 +1,6 @@
 spring:
     profiles:
       active: dev
-    application: 
-      name: ms-provider-order
 busi:
   ops: Y
 ---
