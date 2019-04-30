@@ -1,7 +1,8 @@
 spring:
     profiles:
       active: prod
-
+    application:
+      name: ms-provider-order
 busi:
   ops: Y
 ---
@@ -27,6 +28,6 @@ spring:
       driver-class-name: com.mysql.jdbc.Driver
   profiles: prod
   application:
-     name: ms-provider-order
+      name: ms-provider-order
 server:
   port: 8003
