@@ -13,8 +13,6 @@ spring:
       jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud03
       driver-class-name: com.mysql.jdbc.Driver
   profiles: dev
-server:
-  port: 8003
 ---
 spring:
   datasource:
@@ -24,5 +22,4 @@ spring:
       jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud02
       driver-class-name: com.mysql.jdbc.Driver
   profiles: test
-server:
-  port: 8002
+
