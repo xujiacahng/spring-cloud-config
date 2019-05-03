@@ -4,7 +4,7 @@ spring:
   datasource:
     druid:
       username: root
-      password: '{cipher}ed351b505fb153794dec41163103febdaf934f12096a1421d52cb1cf6c47b130'
+      password: '{cipher}ae02ac56207ed2b2ea906d12b96fdbe107a74a7b361234a4909039450ac7f0c7'
       jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud03
       driver-class-name: com.mysql.jdbc.Driver
   profiles: dev
